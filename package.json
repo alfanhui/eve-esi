@@ -1,36 +1,36 @@
 {
-  "name": "eve-esi-client",
-  "version": "0.6.1",
-  "description": "Client for Eve Online ESI",
-  "main": "./dist/index.js",
-  "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
-  "homepage": "http://github.com/MichielvdVelde/eve-esi",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MichielvdVelde/eve-esi.git"
-  },
-  "files": [
-    "dist"
-  ],
-  "engines": {
-    "node": ">=10"
-  },
-  "keywords": [
-    "eve",
-    "online",
-    "esi",
-    "client",
-    "sso"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "@types/bent": "^7.3.2",
-    "typescript": "^4.1.3"
-  },
-  "dependencies": {
-    "bent": "^7.3.12"
-  },
-  "peerDepencencies": {
-    "eve-sso": "^1.2.0"
-  }
+    "name": "eve-esi-client",
+    "version": "0.6.1",
+    "description": "Client for Eve Online ESI",
+    "main": "./dist/index.js",
+    "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+    "homepage": "http://github.com/MichielvdVelde/eve-esi",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MichielvdVelde/eve-esi.git"
+    },
+    "files": [
+        "dist"
+    ],
+    "engines": {
+        "node": ">=10"
+    },
+    "keywords": [
+        "eve",
+        "online",
+        "esi",
+        "client",
+        "sso"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@types/bent": "^7.3.2",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {
+        "bent": "^7.3.12"
+    },
+    "peerDepencencies": {
+        "eve-sso": "github:alfanhui/eve-sso#bugfix/update-form-urldep"
+    }
 }
